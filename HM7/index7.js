@@ -1,0 +1,15 @@
+const red = 'Enter the red color: ';
+const answerRed = prompt(red);
+const DecimalRed = 15 * Math.pow(16,1) + 15 * Math.pow(16,0);
+const result = `Red color = rgb(${DecimalRed},0,0)`;
+alert(result);
+const green = 'Enter the green color: ';
+const answerGreen = prompt(green);
+const DecimalGreen = 8 * Math.pow(16,1) + 0 * Math.pow(16,0);
+const result2 = `Green color = rgb(0,${DecimalGreen},0)`;
+alert(result2);
+const blue = 'Enter the blue color: ';
+const answerBlue = prompt(blue);
+const DecimalBlue = 15 * Math.pow(16,1) + 15 * Math.pow(16,0);
+const result3 = `Blue color = rgb(0,0,${DecimalBlue})`;
+alert(result3);
