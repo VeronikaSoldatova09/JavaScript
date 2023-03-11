@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body{
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+}
+.watch{
+    text-align: center;
+    padding-top: 250px;
+    color: yellow;
+    font-size: 70px;
+    font-weight: 700;
+}
+.data{
+    position: relative;
+    top: 250px;
+    right: 127px;
+    text-align: center;
+    color: yellow;
+    font-size: 25px;
+    font-weight: 500;
+}
