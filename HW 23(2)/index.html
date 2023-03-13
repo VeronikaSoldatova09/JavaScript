@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="button" value="Start" id="start_btn" onmousedown="viewDiv()">
+    <div id="game_clicker">
+        Time remaining:
+        <span id="timer"> 30s</span><br />
+        Score:
+        <span id="score">0</span><br />
+        <button onclick="clicker()" id="demo" onmousedown="hideDiv()"> </button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
